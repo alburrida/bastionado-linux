@@ -1,0 +1,4 @@
+lrwxrwxrwx root root /usr/bin/gcc
+lrwxrwxrwx root root /usr/bin/g++
+lrwxrwxrwx root root /usr/bin/cc
+-rwxr-x--- root compilers /usr/bin/make

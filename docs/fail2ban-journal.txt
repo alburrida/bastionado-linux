@@ -1,0 +1,11 @@
+may 31 18:25:15 ubuntulab systemd[1]: Started fail2ban.service - Fail2Ban Service.
+may 31 18:25:16 ubuntulab fail2ban-server[3687]: 2026-05-31 18:25:16,223 fail2ban.configreader   [3687]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+may 31 18:25:18 ubuntulab fail2ban-server[3687]: Server ready
+may 31 18:42:01 ubuntulab systemd[1]: Stopping fail2ban.service - Fail2Ban Service...
+may 31 18:42:01 ubuntulab fail2ban-client[3994]: Shutdown successful
+may 31 18:42:01 ubuntulab systemd[1]: fail2ban.service: Deactivated successfully.
+may 31 18:42:01 ubuntulab systemd[1]: Stopped fail2ban.service - Fail2Ban Service.
+may 31 18:42:01 ubuntulab systemd[1]: fail2ban.service: Consumed 1.775s CPU time, 30.2M memory peak, 0B memory swap peak.
+may 31 18:42:01 ubuntulab systemd[1]: Started fail2ban.service - Fail2Ban Service.
+may 31 18:42:02 ubuntulab fail2ban-server[4009]: 2026-05-31 18:42:02,106 fail2ban.configreader   [4009]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+may 31 18:42:02 ubuntulab fail2ban-server[4009]: Server ready

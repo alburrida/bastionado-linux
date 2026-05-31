@@ -1,0 +1,14 @@
+● fail2ban.service - Fail2Ban Service
+     Loaded: loaded (/usr/lib/systemd/system/fail2ban.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-05-31 18:42:01 UTC; 8s ago
+       Docs: man:fail2ban(1)
+   Main PID: 4009 (fail2ban-server)
+      Tasks: 5 (limit: 2263)
+     Memory: 19.4M (peak: 19.7M)
+        CPU: 325ms
+     CGroup: /system.slice/fail2ban.service
+             └─4009 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
+
+may 31 18:42:01 ubuntulab systemd[1]: Started fail2ban.service - Fail2Ban Service.
+may 31 18:42:02 ubuntulab fail2ban-server[4009]: 2026-05-31 18:42:02,106 fail2ban.configreader   [4009]: WARNING 'allowipv6' not defined in 'Definition'. Using default one: 'auto'
+may 31 18:42:02 ubuntulab fail2ban-server[4009]: Server ready

@@ -1,0 +1,10 @@
+● ufw.service - Uncomplicated firewall
+     Loaded: loaded (/usr/lib/systemd/system/ufw.service; enabled; preset: enabled)
+     Active: active (exited) since Sun 2026-05-31 17:25:56 UTC; 56min ago
+       Docs: man:ufw(8)
+    Process: 499 ExecStart=/usr/lib/ufw/ufw-init start quiet (code=exited, status=0/SUCCESS)
+   Main PID: 499 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+
+may 31 17:25:56 ubuntulab systemd[1]: Starting ufw.service - Uncomplicated firewall...
+may 31 17:25:56 ubuntulab systemd[1]: Finished ufw.service - Uncomplicated firewall.

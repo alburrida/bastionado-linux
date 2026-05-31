@@ -1,0 +1,5 @@
+total 137M
+-rw------- 1 root  root  69M may 31 19:09 aide.db
+-rw------- 1 _aide _aide 69M may 31 18:58 aide.db.new
+-rw------- 1 root  root  586 may 31 19:17 aide-practica.db
+-rw------- 1 root  root  586 may 31 19:17 aide-practica.db.new

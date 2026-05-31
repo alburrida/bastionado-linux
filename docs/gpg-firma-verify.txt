@@ -1,0 +1,5 @@
+gpg: Signature made dom 31 may 2026 19:48:14 UTC
+gpg:                using RSA key C11CA0FBF4289F3DFF4F41E5A9BF394CFB748892
+gpg:                issuer "asir-practica@example.local"
+gpg: Good signature from "Alumno ASIR <asir-practica@example.local>" [ultimate]
+gpg: WARNING: not a detached signature; file 'docs/verificacion.txt' was NOT verified!

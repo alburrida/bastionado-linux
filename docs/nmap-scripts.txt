@@ -1,0 +1,11 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-31 17:55 UTC
+Nmap scan report for 10.0.2.15
+Host is up (0.00018s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE
+22/tcp open  ssh
+| ssh-hostkey: 
+|   256 d9:17:77:16:20:8b:ac:b3:ff:84:f5:13:28:20:bb:de (ECDSA)
+|_  256 d8:18:c0:33:ef:33:3f:fc:f8:16:92:5a:2d:fa:1d:7a (ED25519)
+
+Nmap done: 1 IP address (1 host up) scanned in 5.55 seconds

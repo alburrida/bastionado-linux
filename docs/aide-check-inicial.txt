@@ -1,0 +1,14 @@
+La ejecución de AIDE con la configuración completa del sistema resultaba demasiado lenta para la práctica, ya que analizaba un gran número de rutas del servidor.
+
+Para realizar una verificación controlada, se creó una configuración mínima en:
+
+configs/aide/aide-practica.conf
+
+Esta configuración vigila específicamente los dos elementos requeridos en el ejercicio:
+
+- /etc/passwd
+- /usr/bin/backdoor
+
+Con esta base limpia se simuló una intrusión creando /usr/bin/backdoor y modificando /etc/passwd. El reporte definitivo se encuentra en:
+
+docs/reporte-integridad.txt

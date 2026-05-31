@@ -1,0 +1,5 @@
+Este archivo se utiliza para comprobar la firma digital generada con GPG.
+
+La firma permite validar dos aspectos importantes:
+1. Que el archivo fue firmado por el propietario de la clave privada.
+2. Que el contenido no ha sido modificado desde que fue firmado.

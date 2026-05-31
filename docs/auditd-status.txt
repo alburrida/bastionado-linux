@@ -1,0 +1,22 @@
+● auditd.service - Security Auditing Service
+     Loaded: loaded (/usr/lib/systemd/system/auditd.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-05-31 19:33:37 UTC; 22s ago
+       Docs: man:auditd(8)
+             https://github.com/linux-audit/audit-documentation
+   Main PID: 78238 (auditd)
+      Tasks: 2 (limit: 2263)
+     Memory: 476.0K (peak: 2.1M)
+        CPU: 47ms
+     CGroup: /system.slice/auditd.service
+             └─78238 /sbin/auditd
+
+may 31 19:33:37 ubuntulab augenrules[78256]: enabled 1
+may 31 19:33:37 ubuntulab augenrules[78256]: failure 1
+may 31 19:33:37 ubuntulab augenrules[78256]: pid 78238
+may 31 19:33:37 ubuntulab augenrules[78256]: rate_limit 0
+may 31 19:33:37 ubuntulab augenrules[78256]: backlog_limit 8192
+may 31 19:33:37 ubuntulab augenrules[78256]: lost 0
+may 31 19:33:37 ubuntulab augenrules[78256]: backlog 0
+may 31 19:33:37 ubuntulab augenrules[78256]: backlog_wait_time 60000
+may 31 19:33:37 ubuntulab augenrules[78256]: backlog_wait_time_actual 0
+may 31 19:33:37 ubuntulab systemd[1]: Started auditd.service - Security Auditing Service.

@@ -1,0 +1,20 @@
+Netid State  Recv-Q Send-Q                     Local Address:Port  Peer Address:PortProcess                                                                                                            
+udp   UNCONN 0      0                              127.0.0.1:53         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=10)) ino:7743 sk:2 cgroup:/system.slice/dnsmasq.service <->                          
+udp   UNCONN 0      0                          192.168.50.10:53         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=8)) ino:7741 sk:3 cgroup:/system.slice/dnsmasq.service <->                           
+udp   UNCONN 0      0                          192.168.56.10:53         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=6)) ino:7739 sk:4 cgroup:/system.slice/dnsmasq.service <->                           
+udp   UNCONN 0      0                             127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=528,fd=16)) uid:992 ino:5700 sk:5 cgroup:/system.slice/systemd-resolved.service <-> 
+udp   UNCONN 0      0                          127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=528,fd=14)) uid:992 ino:5698 sk:6 cgroup:/system.slice/systemd-resolved.service <-> 
+udp   UNCONN 0      0                         0.0.0.0%enp0s8:67         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=4)) ino:7736 sk:7 cgroup:/system.slice/dnsmasq.service <->                           
+udp   UNCONN 0      0                       10.0.2.15%enp0s3:68         0.0.0.0:*    users:(("systemd-network",pid=509,fd=22)) uid:998 ino:5675 sk:8 cgroup:/system.slice/systemd-networkd.service <-> 
+udp   UNCONN 0      0      [fe80::a00:27ff:fe65:e99f]%enp0s8:53            [::]:*    users:(("dnsmasq",pid=716,fd=18)) uid:999 ino:7882 sk:9 cgroup:/system.slice/dnsmasq.service v6only:1 <->         
+udp   UNCONN 0      0                                  [::1]:53            [::]:*    users:(("dnsmasq",pid=716,fd=12)) ino:7745 sk:a cgroup:/system.slice/dnsmasq.service v6only:1 <->                 
+tcp   LISTEN 0      4096                             0.0.0.0:22         0.0.0.0:*    users:(("sshd",pid=1570,fd=3),("systemd",pid=1,fd=96)) ino:7167 sk:b cgroup:/system.slice/ssh.socket <->          
+tcp   LISTEN 0      4096                           127.0.0.1:41931      0.0.0.0:*    users:(("containerd",pid=685,fd=14)) ino:8807 sk:c cgroup:/system.slice/containerd.service <->                    
+tcp   LISTEN 0      4096                       127.0.0.53%lo:53         0.0.0.0:*    users:(("systemd-resolve",pid=528,fd=15)) uid:992 ino:5699 sk:d cgroup:/system.slice/systemd-resolved.service <-> 
+tcp   LISTEN 0      32                         192.168.50.10:53         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=9)) ino:7742 sk:e cgroup:/system.slice/dnsmasq.service <->                           
+tcp   LISTEN 0      4096                          127.0.0.54:53         0.0.0.0:*    users:(("systemd-resolve",pid=528,fd=17)) uid:992 ino:5701 sk:f cgroup:/system.slice/systemd-resolved.service <-> 
+tcp   LISTEN 0      32                         192.168.56.10:53         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=7)) ino:7740 sk:10 cgroup:/system.slice/dnsmasq.service <->                          
+tcp   LISTEN 0      32                             127.0.0.1:53         0.0.0.0:*    users:(("dnsmasq",pid=716,fd=11)) ino:7744 sk:11 cgroup:/system.slice/dnsmasq.service <->                         
+tcp   LISTEN 0      4096                                [::]:22            [::]:*    users:(("sshd",pid=1570,fd=4),("systemd",pid=1,fd=97)) ino:7171 sk:12 cgroup:/system.slice/ssh.socket v6only:1 <->
+tcp   LISTEN 0      32     [fe80::a00:27ff:fe65:e99f]%enp0s8:53            [::]:*    users:(("dnsmasq",pid=716,fd=19)) uid:999 ino:7883 sk:13 cgroup:/system.slice/dnsmasq.service v6only:1 <->        
+tcp   LISTEN 0      32                                 [::1]:53            [::]:*    users:(("dnsmasq",pid=716,fd=13)) ino:7746 sk:14 cgroup:/system.slice/dnsmasq.service v6only:1 <->                

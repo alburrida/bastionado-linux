@@ -1,0 +1,11 @@
+La IP atacante simulada fue desbaneada manualmente con:
+
+sudo fail2ban-client set sshd unbanip <IP_BANEADA>
+
+Tras el desbaneo se comprobó el estado del jail SSH con:
+
+sudo fail2ban-client status sshd
+
+La evidencia final se encuentra en:
+
+docs/fail2ban-status-sshd-final.txt

@@ -1,0 +1,61 @@
+WARNING: /home/alba/bastionado-linux/configs/aide/aide-practica.conf:5: Using 'database' is DEPRECATED and will be removed in the next release.. Update your config and use 'database_in' instead (line: 'database=file:/var/lib/aide/aide-practica.db')
+Start timestamp: 2026-05-31 19:18:17 +0000 (AIDE 0.18.6)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	4
+  Added entries:		1
+  Removed entries:		0
+  Changed entries:		1
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++++: /usr/bin/backdoor
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+f > ... mci.H     : /etc/passwd
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+File: /etc/passwd
+ Size      : 2108                             | 2122
+ Mtime     : 2026-05-31 19:17:34 +0000        | 2026-05-31 19:18:09 +0000
+ Ctime     : 2026-05-31 19:17:34 +0000        | 2026-05-31 19:18:09 +0000
+ Inode     : 196887                           | 196890
+ SHA256    : lfTmPFOWy17D92nHPGG9YjBQsGVwZoKU | RwmqOxUA55P63yyM+BoWLhI/RMKQqFFg
+             0nURLE28EvM=                     | P/R2Ss+OzRI=
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide-practica.db
+ MD5       : uhCHLc64OM5Vm+3HixuZzw==
+ SHA1      : UK7FYLxWmK5WKjhK0tUbfiazqqU=
+ SHA256    : QpnLfB22JOSRdBRcINdQCtqqn2u8gAUi
+             0gCpioyXEl4=
+ SHA512    : xk24pxL7sBHzdyOqaGDNJhB8r4/TAHOw
+             dZFwbwF1YzoeoxJU6WNywdgxkF9qT9m+
+             BnCY19W+laB/TAuv8akYJQ==
+ RMD160    : 0L5lnRyrZNxJ8O+5Q3sFEaLqFng=
+ TIGER     : zqy3h2kGiK8UzzCGq2iU73b7uK2X6S7F
+ CRC32     : psePTA==
+ CRC32B    : ToSNzg==
+ HAVAL     : w+JvGD48aOpoKXoRKFyGa+oovOsJTiKY
+             7BVpl2oCXqE=
+ WHIRLPOOL : /Ljr4QlIwseXC0uOw5ekN5zrUqbMmzcW
+             Dvis30x5Oo0g/BYFkaf62b2+PD90i/5N
+             4Xm4r+zVR2gBXAe60cL4VA==
+ GOST      : j2VtbOuZyw/ohFhhYqvY6cVLRLyspJps
+             /PecaVqJhhQ=
+
+
+End timestamp: 2026-05-31 19:18:17 +0000 (run time: 0m 0s)
