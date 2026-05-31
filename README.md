@@ -1,7 +1,5 @@
 # Bastionado de servidores Linux
 
-# Bastionado de servidores Linux
-
 Práctica de seguridad defensiva sobre un servidor Linux basada en una estrategia de defensa en profundidad.
 El proyecto incluye hardening inicial del sistema, configuración de cortafuegos, protección frente a fuerza bruta, cifrado y firma digital con GPG, análisis de puertos con Nmap, detección de cambios con AIDE y auditoría automatizada con Lynis.
 
