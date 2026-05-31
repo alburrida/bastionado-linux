@@ -1,5 +1,5 @@
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-31 17:54 UTC
-Nmap scan report for 10.0.2.15
+Nmap scan report for IP_SERVIDOR
 Host is up (0.000049s latency).
 Not shown: 999 closed tcp ports (reset)
 PORT   STATE SERVICE VERSION

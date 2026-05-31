@@ -7526,9 +7526,9 @@
 2026-05-31 19:24:43 Performing test ID NETW-3008 (Get network IP addresses)
 2026-05-31 19:24:43 Test: Using ip binary to gather IP addresses
 2026-05-31 19:24:43 Found IPv4 address: 127.0.0.1
-2026-05-31 19:24:43 Found IPv4 address: 10.0.2.15
-2026-05-31 19:24:43 Found IPv4 address: 192.168.50.10
-2026-05-31 19:24:43 Found IPv4 address: 192.168.56.10
+2026-05-31 19:24:43 Found IPv4 address: IP_SERVIDOR
+2026-05-31 19:24:43 Found IPv4 address: IP_PRIVADA_1
+2026-05-31 19:24:43 Found IPv4 address: IP_PRIVADA_2
 2026-05-31 19:24:43 Found IPv4 address: 172.18.0.1
 2026-05-31 19:24:43 Found IPv4 address: 172.17.0.1
 2026-05-31 19:24:43 Found IPv6 address: ::1

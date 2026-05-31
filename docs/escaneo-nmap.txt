@@ -1,12 +1,12 @@
 # Escaneo Nmap - Servidor Ubuntu
 
 Fecha del escaneo: dom 31 may 2026 17:56:17 UTC
-Dirección analizada: 10.0.2.15
+Dirección analizada: IP_SERVIDOR
 
 ## Escaneo TCP básico
 
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-31 17:54 UTC
-Nmap scan report for 10.0.2.15
+Nmap scan report for IP_SERVIDOR
 Host is up (0.00015s latency).
 Not shown: 999 closed tcp ports (conn-refused)
 PORT   STATE SERVICE
@@ -17,7 +17,7 @@ Nmap done: 1 IP address (1 host up) scanned in 13.10 seconds
 ## Escaneo avanzado con detección de versiones y sistema operativo
 
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-31 17:54 UTC
-Nmap scan report for 10.0.2.15
+Nmap scan report for IP_SERVIDOR
 Host is up (0.000049s latency).
 Not shown: 999 closed tcp ports (reset)
 PORT   STATE SERVICE VERSION
@@ -35,7 +35,7 @@ Nmap done: 1 IP address (1 host up) scanned in 14.56 seconds
 ## Escaneo con scripts por defecto
 
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-31 17:55 UTC
-Nmap scan report for 10.0.2.15
+Nmap scan report for IP_SERVIDOR
 Host is up (0.00018s latency).
 Not shown: 999 closed tcp ports (conn-refused)
 PORT   STATE SERVICE
